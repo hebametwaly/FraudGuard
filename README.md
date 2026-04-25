@@ -4,13 +4,13 @@ A machine learning web application that detects fraudulent credit card transacti
 
 ---
 
-## 📌 Overview
+## Overview
 
 FraudGuard is an end-to-end fraud detection system that allows users to analyze credit card transactions — either one at a time or in bulk — and instantly receive a fraud risk score. The model is trained on the well-known ULB Credit Card Fraud dataset and handles the severe class imbalance (only 0.172% fraud) using cost-sensitive learning.
 
 ---
 
-## ✨ Features
+## Features
 
 - **Single Transaction Analysis** — Enter PCA features (V1–V28), Amount, and Time to get an instant fraud probability score with a risk level label (Very Low → Critical).
 - **Batch Analysis** — Upload a CSV file to score thousands of transactions at once. Supports optional `Class` column for automatic evaluation metrics.
