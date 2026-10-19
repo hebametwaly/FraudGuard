@@ -1,6 +1,6 @@
 # 🛡️ FraudGuard — Credit Card Fraud Detection
 
-A machine learning web application that detects fraudulent credit card transactions in real time, built as a graduation project using **XGBoost** and **Streamlit**.
+A machine learning web application that detects fraudulent credit card transactions in real time.
 
 ---
 
@@ -20,20 +20,6 @@ FraudGuard is an end-to-end fraud detection system that allows users to analyze 
 
 ---
 
-## 🧠 Model Details
-
-| Property | Value |
-|---|---|
-| Algorithm | XGBoost (Gradient Boosted Trees) |
-| Estimators | 200 |
-| Learning Rate | 0.05 |
-| Max Depth | 6 |
-| Imbalance Handling | Cost-Sensitive (`scale_pos_weight`) |
-| Train/Test Split | Time-Based (80/20) |
-| Evaluation Metric | AUPRC |
-
----
-
 ## 📊 Dataset
 
 | Property | Value |
@@ -42,7 +28,6 @@ FraudGuard is an end-to-end fraud detection system that allows users to analyze 
 | Total Transactions | 284,807 |
 | Fraud Rate | 0.172% |
 | Features | V1–V28 (PCA) + Amount + Time |
-| Preprocessing | StandardScaler on Amount and Time |
 
 ---
 
